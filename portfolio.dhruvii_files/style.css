@@ -1,0 +1,339 @@
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+.hero{
+    width: 100%;
+    height: 100vh;
+    color:#101010;
+    background: url(img/bg1.jpg);
+    background-size: cover;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 100px;
+}
+.logo{
+    max-height: 100px;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 20px 20px;
+}
+nav ul li a{
+    color: #1d1d24;
+    position: relative;
+    padding: 5px 0;
+}
+nav ul li a:hover{
+    color: #fd4766;
+}
+nav ul li a:after{
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 0;
+    height: 3px;
+    background: #fd4766;
+    transition: .3s;
+    bottom: 0;
+}
+nav ul li a:hover:after{
+    width: 70%;
+}
+.btn{
+    color: rgb(6, 4, 4);
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 16px 40px;
+    border-radius: 500px;
+    display: inline-block;
+    font-weight: 500;
+    transition: all .4s ease-in-out;
+    background-size: 152% 100%;
+    background: #fd4766;
+    border: 2px solid #fd4766;
+}
+.btn:hover{
+    background: transparent;
+    border-color: #fd4766;
+    color: #fd4766;
+}
+.content{
+    position: absolute;
+    top: 35%;
+    left: 8%;
+}
+.content .title{
+    color: #b9b9ca;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 15px;
+    display: inline-block;
+    margin-bottom: 30px;
+    background: linear-gradient(120deg, #042540 20.69%, #200e52 50.19%,#fd4766 79.69%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.content h1{
+    color: #1f1f25;
+    font-size: 75px;
+    font-weight: 900;
+    line-height: 90px;
+    text-transform: inherit;
+    width: 70%;
+}
+.content h1 span{
+    color: #fd4766;
+}
+.content p{
+    width: 55%;
+    color: #757575;
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+about{
+	width: 100%;
+	height: 100%;
+	padding: 100px 0px;
+	background-color: #191919;	
+}
+.main img{
+	width: 430px;
+	height: auto;
+}
+.about-text{
+	width: 500px;
+}
+.main{
+	width: 100%;
+	height: 1000px;
+	max-width: 100%;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	background-color: #101010;
+}
+.about-text h2{
+	color: rgb(80, 68, 68);
+	font-size: 75px;
+	text-transform: capitalize;
+	margin-bottom: 20px;
+}
+.about-text h5{
+	color: rgb(220, 204, 204);
+	letter-spacing: 2px;
+	font-size: 22px;
+	margin-bottom: 25px;
+	text-transform: capitalize;
+}
+button{
+	background-color: #f9004d;
+	color: rgb(201, 179, 179);
+	text-decoration: none;
+	border: 2px solid transparent;
+	font-weight: bold;
+	padding: 13px 30px;
+	border-radius: 30px;
+	transition: .4s;
+}
+button:hover{
+	background-color: transparent;
+	border: 2px solid #f9004d;
+	cursor: pointer;
+}
+b{
+	font-weight: 900;
+}
+
+
+.timeline .heading{
+    margin-bottom: 150px;
+}
+
+.timeline{
+    display: block;
+    width: 80%;
+    margin: 150px auto;
+}
+
+.timeline .heading{
+    margin-bottom: 150px;
+}
+.card{
+    width: 45%;
+    padding: 30px;
+    border-radius: 10px;
+    color: rgb(16, 23, 24);
+    display: block;
+    margin: -80px 0;
+    position: relative;
+    background: rgb(103, 75, 75);
+}
+.card:nth-child(even){
+    margin-left: auto;
+}
+
+.card:nth-child(even):before{
+    content: '';
+    position: absolute;
+    left: -15%;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
+    border: 5px solid #191919;
+    border-radius: 50%;
+}
+
+.card:nth-child(even):after{
+    content: '';
+    position: absolute;
+    left: -15%;
+    top: 50%;
+    transform: translateY(-60%);
+    width: 7%;
+    height: 2px;
+    background: rgb(90, 120, 151);
+}
+ex-me{
+    margin-top: 35px;
+  }
+  /* start skill*/
+#skill
+{
+   background-color: #ffffff;
+   padding: 130px 100px 150px 150px; 
+   height: 80%;
+   size: cover;
+
+      
+}
+
+#skill .progress
+    {
+        border-radius: 2px;
+        background: #a49574;
+        height: 5px;
+        line-height: 50px;
+
+    }
+#skill .progress .progress-bar-danger
+    {
+        background: #0a4d2d;
+
+    }
+#skill .text-top
+    {
+        padding-top: 50px;
+    }
+
+#skill h1
+{
+   font-family: 'Saira Extra Condensed', serif;
+   text-align: center;  
+   color: black;
+}
+
+#skill div
+    {
+        color: black;
+        font-weight: bold;
+        display: block;
+        padding-bottom: 6px;
+        line-height: 20px;
+    }
+#skill small
+    {
+        font-weight: bold;
+        float: right;
+    }
+  .contact-us{
+	width: 100%;
+	height: 290px;
+	background-color: #252525;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+}
+.contact-us p{
+	color: white;
+	font-size: 30px;
+	font-weight: bold;
+	margin-bottom: 25px;
+}
+.contact-us .button-two{
+	background-color: #f9004d;
+	color: white;
+	text-decoration: none;
+	border: 2px solid transparent;
+	font-weight: bold;
+	padding: 13px 30px;
+	border-radius: 30px;
+	transition: .4s;
+}
+.contact-us .button-two:hover{
+	background-color: transparent;
+	border: 2px solid #f9004d;
+	cursor: pointer;
+}
+footer{
+	position: relative;
+	width: 100%;
+	height: 400px;
+	background-color: #252525;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+footer p:nth-child(1){
+	font-size: 30px;
+	color: white;
+	margin-bottom: 20px;
+	font-weight: bold;
+}
+footer p:nth-child(2){
+	color: white;
+	font-size: 17px;
+	width: 100%;
+	text-align: center;
+	list-style-type: 26px;
+}
+.social{
+	display: flex;
+}
+.social a{
+	width: 45px;
+	height: 45px;
+	display: flex;
+	background-color: #f9004d;
+	border-radius: 50%;
+	margin: 20px 15px;
+	color: white;
+	text-decoration: none;
+	font-size: 30px;
+	padding: 3px;
+}
+.social a:hover{
+	transform: scale(1.3);
+	transition: .3s;
+}
+.social i{
+	font-size: 30px;
+	display: flex;
+	color: white;
+	align-items: center;
+	padding: 9px;
+}
